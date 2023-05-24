@@ -1,0 +1,36 @@
+.box_login {
+	width: 300px;
+	height: 350px;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 0 auto;
+	background-image: linear-gradient(#ff3300, #ff944d);
+	box-shadow: 5px 5px 15px 5px #333;
+}
+
+
+legend, label, h1 {
+	color: white;
+}
+
+div > input, div > select {
+	padding: 7px;
+  	box-sizing: border-box;
+  	width: 100%;
+}
+
+button {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+  	float: right;
+}
+
+@media (min-width: 500px) {
+	.box_login {
+		width: 300px;
+	}
+}
+

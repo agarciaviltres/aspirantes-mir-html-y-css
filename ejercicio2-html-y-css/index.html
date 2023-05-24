@@ -7,6 +7,28 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-
+	<form class="box_login" action="/registro" method="post">
+  		<!-- <fieldset> -->
+    		<!-- <legend>Login:</legend><br/> -->
+    		<h1>Login</h1>
+    		<div class="login">
+		    <label for="correo">Email:</label><br/>
+		    <input type="email" id="correo" name="correo"><br><br>
+		    <label for="contraseña">Pasword:</label><br/>
+		    <input type="Pasword" id="contraseña" name="contraseña"><br><br>
+		    <label for="sexo">Género:</label><br/>
+		    <select name="select">
+			  <option value="value1">Mujer</option>
+			  <option value="value2" selected>Hombre</option>
+			</select><br><br>
+			</div>
+		    <label>
+		    	<input type="checkbox" name="selection" value="Acepta términos">
+		    	Acepto los términos
+		    </label><br><br>
+		    <button id="boton" type="submit">Ingresar</button>
+  		<!-- </fieldset> -->
+	</form>
+	<!-- <div class="box_login"></div> -->
 </body>
 </html>
